@@ -18,10 +18,13 @@ use pre-commit npm to check code
 npm install pre-commit --save-dev
 ```
 
+## 使用本库
+把check.js复制到你自己的项目中，然后按照下面的操作修改即可！
+
 ## 修改package.json
 ```
 "scripts": {
-    "lint:check": "node check.js" // 检查的脚本
+    "lint:check": "node [你的路径]check.js" // 检查的脚本
   },
   "pre-commit": [
     "lint:check" // 与scripts中的脚本名称一一对应
