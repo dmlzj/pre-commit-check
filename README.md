@@ -34,7 +34,7 @@ npm install pre-commit --save-dev
 实际写代码中的测试代码，写在--test--和--end test--之间，这样在commit时候就会被检测出来
 
 ```
-// --test-- 或者 -- test --test
+// --test-- 或者 -- test --
 // --end test-- 或者 -- end test --
 ```
 ## 问题
